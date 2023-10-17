@@ -1,0 +1,109 @@
+/* FoodList.css */
+
+* {
+  box-sizing: border-box;
+}
+
+
+.food-list {
+
+  /* margin: 20px; */
+  display: inline-block;
+  width: 100%;
+
+}
+
+
+.food-items {
+
+  margin-left: 7%;
+  /* display: grid; */
+  /* grid-template-columns: auto auto auto auto; */
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center;  */
+  gap: 2%;
+  /* margin-left: 5%; */
+  /* margin-right: 5%; */
+}
+
+.food-card {
+  /* display: flex; */
+  width: auto;
+  height: 500px;
+  max-width: 300px;
+  flex-direction: column;
+  text-align: center;
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.food-card:hover {
+  transform: scale(1.02);
+  /* Enlarge the card on hover */
+}
+
+.food-image {
+  width: 90%;
+  margin: 5%;
+  max-height: 80%;
+  object-fit: cover;
+}
+
+.food-details {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.food-name {
+  font-size: 18px;
+  margin: 0;
+}
+
+.food-description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.food-price {
+  font-size: 16px;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #007bff;
+  /* Price color */
+}
+
+.category-filter {
+  display: flex;
+  align-items: center;
+  /* background-color: #ababab; Blue background color */
+  /* color: #fff; Text color */
+  padding: 10px;
+}
+
+label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+select {
+  background-color: #fff; /* Background color */
+  color: #333; /* Text color */
+  border: 2px solid #515152; /* Blue border */
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+/* Style select element on hover or focus */
+select:hover, select:focus {
+  background-color: #f0f0f0;
+  outline: none;
+}

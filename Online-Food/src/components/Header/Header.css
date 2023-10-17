@@ -1,0 +1,88 @@
+/* Header.css */
+.header {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.15);
+}
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: #fff; /* Text color */
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-icon img {
+  max-width: 30%;
+  margin: 5%;
+}
+.log {
+  max-width: 10%;
+  gap: 5%
+
+}
+.logo-text {
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: 10px;
+  color: #fff; /* Text color */
+}
+
+a{
+  text-decoration: none;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12%;
+  max-width: 30%;
+  width: 17%;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(238, 234, 234); /* Text color */
+  margin-right: 20px;
+}
+
+.cart-button, .log-in-button, .logout-button {
+  background-color: #0077ff; /* Blue color for buttons */
+  color: #fff; /* Text color */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.2s;
+  margin-right: 10px;
+}
+
+.cart-button:hover, .log-in-button:hover, .logout-button:hover {
+  background-color: #0055cc; /* Darker blue on hover */
+}
+
+.log-in-button {
+  background-color: #ff9900; /* Orange color for log-in button */
+}
+
+.log-in-button:hover {
+  background-color: #ff7700; /* Darker orange on hover */
+}
+
+.logout-button {
+  background-color: #ff5555; /* Red color for logout button */
+}
+
+.logout-button:hover {
+  background-color: #ff3333; /* Darker red on hover */
+}
